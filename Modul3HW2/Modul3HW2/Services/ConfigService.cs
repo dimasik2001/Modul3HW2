@@ -23,7 +23,8 @@ namespace Modul3HW2.Services
 
         public Alphabet Rus => _config.AlphabetConfig.Russian;
         public Alphabet Eng => _config.AlphabetConfig.English;
-        public Alphabet Default => _config.AlphabetConfig.English;
+        public Alphabet Default => _config.AlphabetConfig.Default;
+        public Config Config => _config;
         public NamePriority NamePriority => _config.ContactConfig.Priority;
         public void Init()
         {

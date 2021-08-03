@@ -11,7 +11,10 @@ namespace Modul3HW2
     {
         public static void Main(string[] args)
         {
-            new AppStarter().Run();
+            var starter = new AppStarter();
+            starter.Run();
+            var configSer = new ConfigService();
+            var conf = configSer.Config;
         }
     }
 }

@@ -52,7 +52,7 @@ namespace Modul3HW2.Services
                 Init(culture);
                 foreach (var contact in oldTelephoneBook)
                 {
-                    _phoneBook.Add(contact);
+                    Add(contact);
                 }
             }
         }

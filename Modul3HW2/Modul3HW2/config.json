@@ -1,13 +1,8 @@
 {
-    "ContactConfig": {
-        "NamePriority" : "FirstName"
-    },
     "AlphabetConfig": {
-        "English": {
-            "Letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        },
-        "Russian": {
-            "Letters": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
-        }
-    }
+        "English": { "Letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ" },
+        "Russian": { "Letters": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ" },
+        "Default": { "Letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ" }
+    },
+    "ContactConfig": { "Priority": "FirstName" }
 }

@@ -11,5 +11,6 @@ namespace Modul3HW2.Configs
     {
         public Alphabet English { get; set; }
         public Alphabet Russian { get; set; }
+        public Alphabet Default { get; set; }
     }
 }

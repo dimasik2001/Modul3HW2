@@ -1,0 +1,8 @@
+{
+    "AlphabetConfig": {
+        "English": { "Letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ" },
+        "Russian": { "Letters": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ" },
+        "Default": { "Letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ" }
+    },
+    "ContactConfig": { "Priority": "FirstName" }
+}
